@@ -2,13 +2,13 @@
 --		Name:			Updater.lua
 --		Author:			EchoTree
 --		Date:				20230512
---		Verison:			1.0.0
+--		Verison:			1.0.1
 --		Desc:				A simple lua script to pull info from github using some weird shit tbh
 --		Copyright:	dunno what to put here, use it, don't sell it. ggnore
 --===============================================================================--]]
 require ('getos')
 
-gVersion = '1.0.0'
+gVersion = '1.0.1'
 
 gpAlpha						=		io.popen('cd'):read()
 gpUpdateFolder		=		gpAlpha..'\\updates'
