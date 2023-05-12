@@ -8,7 +8,7 @@
 --===============================================================================--]]
 require ('getos')
 
-gVersion = '1.0.0'
+gVersion = '1.0.1'
 
 gpAlpha						=		io.popen('cd'):read()
 gpUpdateFolder		=		gpAlpha..'\\updates'
